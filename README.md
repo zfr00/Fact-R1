@@ -50,13 +50,7 @@ python3 scripts/model_merger.py --local_dir path_to_your_last_actor_checkpoint
 
 ## Thanks
 
-Many thanks to the following open source projects for their help.
+We would like to thank the following repos for their great work: 
 
-```bibtex
-@misc{zheng2025easyr1,
-  title        = {EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework},
-  author       = {Yaowei Zheng, Junting Lu, Shenzhi Wang, Zhangchi Feng, Dongdong Kuang, Yuwen Xiong},
-  howpublished = {\url{https://github.com/hiyouga/EasyR1}},
-  year         = {2025}
-}
-```
+- This work is built upon the [EasyR1](https://github.com/hiyouga/EasyR1) and [veRL](https://github.com/volcengine/verl).
+- This work utilizes models from  [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) and [SAM2](https://huggingface.co/facebook/sam2-hiera-large). 
