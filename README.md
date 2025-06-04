@@ -1,7 +1,7 @@
 # Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning
 
 ## FakeVV dataset
-Here, we present a portion of the dataset used for the three-stage training process. Please note that the training sets for the third stage, which include fakesv and fakett, are not displayed due to access restrictions.
+Here, we present a portion of the dataset used for the three-stage training process. Please note that the training sets for the third stage, which include [fakett](https://github.com/ICTMCG/FakingRecipe) and [fakesv](https://github.com/ICTMCG/FakeSV), are not displayed due to access restrictions.
 
 - data_config/long_cot_random_sampled_data.json
 - data_config/dpo_training_data_sampled.json
@@ -53,4 +53,3 @@ python3 scripts/model_merger.py --local_dir path_to_your_last_actor_checkpoint
 We would like to thank the following repos for their great work: 
 
 - This work is built upon the [EasyR1](https://github.com/hiyouga/EasyR1) and [veRL](https://github.com/volcengine/verl).
-- This work utilizes models from  [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) and [SAM2](https://huggingface.co/facebook/sam2-hiera-large). 
