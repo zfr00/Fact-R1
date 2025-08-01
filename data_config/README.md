@@ -1,6 +1,6 @@
 # Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning
 
-## FakeVV Comment Raw Data
+## FakeVV Comment Raw Data(All IDs are anonymized.)
 
 data_config/comment_raw_data.txt
 This data record contains information about a video comment. Here is the meaning of each field:
