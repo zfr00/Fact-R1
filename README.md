@@ -7,6 +7,20 @@ Here, we present a portion of the dataset used for the three-stage training proc
 - data_config/dpo_training_data_sampled.json
 - data_config/grpo_training_data_sampled.jsonl
 
+### FakeVV dataset testset
+The complete evaluation dataset is defined in:
+
+- **`data_config/grpo_training_data_sampled.jsonl`**
+
+The associated visual resources are hosted on Hugging Face:
+
+- **Video frames:**  
+  https://huggingface.co/datasets/fanrui00/FakeVV_testset
+
+- **Downloaded (crawled) videos:**  
+  https://huggingface.co/datasets/fanrui00/FakeVV_testset_video
+
+
 ## Requirements
 
 ### Software Requirements
