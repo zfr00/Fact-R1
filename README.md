@@ -9,7 +9,8 @@ Here, we present a portion of the dataset used for the three-stage training proc
 
 ### FakeVV dataset testset
 The complete test dataset is defined in:
-
+- **`data_config/reasoning_training_data_image_test_with_audio.json`**
+Includes webpage url
 - **`data_config/reasoning_training_data_image_test_with_audio_urls.json`**
 
 The associated visual resources are hosted on Hugging Face:
