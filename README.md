@@ -1,17 +1,16 @@
 # Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning
 
 ## FakeVV dataset
-Here, we present a portion of the dataset used for the three-stage training process. Please note that the training sets for the third stage, which include [fakett](https://github.com/ICTMCG/FakingRecipe) and [fakesv](https://github.com/ICTMCG/FakeSV), are not displayed due to access restrictions.
 
-- data_config/long_cot_random_sampled_data.json
-- data_config/dpo_training_data_sampled.json
-- data_config/grpo_training_data_sampled.jsonl
+Please note that the training sets for the third stage, which include [fakett](https://github.com/ICTMCG/FakingRecipe) and [fakesv](https://github.com/ICTMCG/FakeSV), are not displayed due to access restrictions.
 
-### FakeVV dataset testset
+
+### FakeVV dataset test set
 The complete test dataset is defined in:
-- **`data_config/reasoning_test_data_image_with_audio.json`**
+- **`data_config/fakevv_test_data.json.json`**
+
 Includes webpage url
-- **`data_config/reasoning_test_data_image_with_audio_urls.json`**
+- **`data_config/fakevv_test_data_with_urls.json`**
 
 The associated visual resources are hosted on Hugging Face:
 
@@ -20,6 +19,21 @@ The associated visual resources are hosted on Hugging Face:
 
 - **Downloaded (crawled) videos:**  
   https://huggingface.co/datasets/fanrui00/FakeVV_testset_video
+
+
+### FakeVV Three-Stage Training Dataset
+
+The annotation files for the three-stage FakeVV training data are hosted at:
+
+- **Annotations & Metadata:**  
+  https://huggingface.co/datasets/fanrui00/fact-r1-train-jsons  
+  This repository also includes metadata for each video. Further details can be found in its included **README.md**.
+
+- **Corresponding Video Files (.mp4):**  
+  https://huggingface.co/datasets/fanrui00/FakeVV_trainset_video
+
+- **Corresponding Video Frames (optional):**  
+  https://huggingface.co/datasets/fanrui00/FakeVV_trainset
 
 
 ## Requirements
